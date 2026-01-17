@@ -7,5 +7,5 @@ int main()
     fork();
 
     x = 10;
-    printf("PID: %d, x = %d", getpid(), x);
+    printf("PID: %d, x = %d\n", getpid(), x);
 }
